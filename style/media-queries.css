@@ -5,12 +5,9 @@
 } */
 
 @media screen and (max-width: 992px){
-
-}
-
-@media screen and (max-width: 768px){
     .auth-main__left-col{
         width: 50%;
+        height:55em;
     }
     .auth-main__right-col{
         width: 50%;

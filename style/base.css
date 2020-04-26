@@ -29,6 +29,7 @@ body{
 
 .sign-up-main__left-col{
     background: url(../img/signup.jpg);
+    height: 97vh;
 }
 
 .logo-text{

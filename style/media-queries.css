@@ -1,0 +1,26 @@
+/* @media screen and (min-width: 992px){
+    .main-auth .row{
+        height: 100vh;
+    }
+} */
+
+@media screen and (max-width: 568px){
+    .auth-main__right-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .auth-main__left-col{
+        height: 50em;
+    }
+    .auth-main__right-col{
+        padding-bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .auth-main__left-col{
+        height: 40em;
+    }
+}

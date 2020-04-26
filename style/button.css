@@ -1,0 +1,22 @@
+.complete-registration-btn{
+    text-transform: uppercase;
+}
+
+.red-btn{
+    background-color: var(--main-red-color);
+    color: var(--white);
+    transition: 0.1s ease-in-out;
+    border: solid 1px var(--main-red-color);
+}
+
+.red-btn:hover{
+    background-color: var(--white);
+    color: var(--main-red-color);
+}
+
+.lg-btn{
+    padding: 1.2rem 0rem;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-family: var(--sf-font-bold);
+}

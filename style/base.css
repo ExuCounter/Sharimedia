@@ -1,0 +1,39 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 100%;
+    font-family: var(--sf-font-regular);
+    color: var(--main-text-color);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.footer, .header{
+    background-color: var(--main-dark-color);
+}
+
+.header{
+    padding: 1.3em 2.6em;
+}
+
+.footer{
+    padding: 0.8em 3.8em;
+}
+
+.sign-up-main__left-col{
+    background: url(../img/signup.jpg);
+}
+
+.logo-text{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--main-red-color);
+}
+
+.copyright-text{
+    font-size: 1em;
+    color: var(--white);
+}

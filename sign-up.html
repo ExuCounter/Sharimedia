@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopMedia</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/variables.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/input.css">
+    <link rel="stylesheet" href="style/auth.css">
+    <link rel="stylesheet" href="style/checkbox.css">
+    <link rel="stylesheet" href="style/button.css">
+    <link rel="stylesheet" href="style/media-queries.css">
+</head>
+<body>
+
+    <header class="header">
+        <span class="logo-text">
+            ShopMedia
+        </span>
+    </header>
+
+    <main class="main main-auth sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-6 col-12 sign-up-main__left-col auth-main__left-col">
+                    
+                </div>
+                <div class="col-md-5 col-sm-6 col-12 auth-main__right-col">
+                    <h1 class="auth-title">
+                        Create your account
+                    </h1>
+                    <form action="#">
+                        <label class='default-label'>
+                            <div class="left-input__icon">
+                                <img src="img/id.svg" alt="id">
+                            </div>
+                            <input type="text" placeholder='My Sponsor ID'>
+                        </label>
+                        <label class='default-label'>
+                            <div class="left-input__icon">
+                                <img src="img/email.svg" alt="email">
+                            </div>
+                            <input type="email" placeholder='Email'>
+                        </label>
+                        <label class='default-label'>
+                            <div class="left-input__icon">
+                                <img src="img/password.svg" alt="password">
+                            </div>
+                            <input type="password" placeholder='Password' class='entry-password-input'>
+                            <button class='show-password-btn show-entry-password-btn'>
+                                <img src="img/eye.svg" alt='show password'>
+                            </button>
+                        </label>
+                        <label class='default-label'>
+                            <div class="left-input__icon">
+                                <img src="img/password.svg" alt="password">
+                            </div>
+                            <input type="password" placeholder='Confirm password' class='re-password-input'>
+                            <button class='show-password-btn show-re-password-btn'>
+                                <img src="img/eye.svg" alt='show password'>
+                            </button>
+                        </label>
+                        <div class="d-flex">
+                            <label class="checkbox-container pl-2">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <p>
+                                    You agree to our Privacy Policy & Terms and conditions
+                                </p>
+                            </label>
+                        </div>
+                        <div class="d-flex">
+                            <label class="checkbox-container pl-2">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <p>
+                                    Get updates via email
+                                </p>
+                            </label>
+                        </div>
+                        <button class="lg-btn red-btn complete-registration-btn">
+                            Complete registration
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <span class="copyright-text">
+            @2020 ShopMedia All rights reserved
+        </span>
+    </footer>
+
+    <script src='js/password-input.js'></script>
+    </body>
+</html>

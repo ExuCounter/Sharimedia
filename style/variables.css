@@ -2,4 +2,8 @@
     --main-dark-color: #242424;
     --main-red-color: #ff0244;
     --main-text-color: #787676;
+    --sf-font-regular: "SF Text Regular", sans-serif;
+    --sf-font-medium: "SF Text Medium", sans-serif;
+    --sf-font-semibold: "SF Text", sans-serif;
+    --sf-font-bold: "SF Text Bold", sans-serif;
 }

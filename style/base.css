@@ -11,6 +11,10 @@ body{
     flex-direction: column;
 }
 
+.main{
+    height: 98vh;
+}
+
 .footer, .header{
     background-color: var(--main-dark-color);
 }
